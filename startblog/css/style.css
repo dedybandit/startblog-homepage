@@ -1,0 +1,140 @@
+/* 
+Theme Name: StartBlog
+Author: Agallio Samai
+Description: A Bootstrap Wordpress Theme
+Version: 1.0
+*/
+
+body {
+	font-family: 'Roboto', sans-serif!important;
+	height: 2000px;
+}
+
+/* Nav */
+.navbar {
+	height: 120px;
+	z-index: 1000;
+	border-radius: 0!important;
+}
+.navbar-nav {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22.5px!important;
+	height: auto;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.nav-wrap {
+	width: 80%;
+}
+.navbar-logo {
+	position: absolute;
+	left: 43%;	
+	margin-top: -5px;
+}
+.navbar-nav li a {
+	padding: 20px 10px 10px 10px!important;
+	margin: 0 12px 0 0;
+}
+.navbar-nav > .active a,
+.navbar-nav > .active a:hover,
+.navbar-nav > .active a:focus {
+	background-color: transparent!important;
+	border-bottom: 2px solid #fff!important;
+}
+.navbar-nav li a:hover,
+.navbar-nav li a:focus {
+	border-bottom: 2px solid #fff;
+}
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #fff;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+.sidenav a {
+	padding: 12px 8px 12px 32px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 25px;
+	color: #000;
+	display: block;
+	transition: 0.3s;
+}
+.sidenav a:hover {
+	color: #999;
+	text-decoration: none;
+	transition: 0.3s;
+}
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 36px;
+}
+.sidenav hr {
+	border: 1px solid #e2e2e2;
+}
+
+/* Hero */
+.hero-container {
+	background-image: url('../img/hero.png');
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: #d9d9d9;
+	padding-top: 126px;
+	text-align: center;
+	height: 690px;
+}
+.hero-inner {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 12.63px;
+}
+.hero-inner > .hero-header {
+	font-size: 4.125em;
+	line-height: 1.2;
+	color: white;
+	letter-spacing: 9px;
+	text-transform: uppercase;
+	-webkit-transform: skewY(-5deg);
+	-moz-transform: skewY(-5deg);
+	-ms-transform: skewY(-5deg);
+	-o-transform: skewY(-5deg);
+	transform: skewY(-5deg);
+}
+.hero-arrow-down {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	bottom: -25px;
+	left: 50%;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	z-index: 1;
+	background-color: #fff;
+	background-image: url('../img/chevron.png');
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: -250px;
+}
+
